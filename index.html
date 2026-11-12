@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APEX Detailing Studio — Премиальный детейлинг, керамика и бронепленка</title>
+  <meta name="description" content="Профессиональный премиальный детейлинг автомобилей: восстановительная полировка, нанокерамика 9H, оклейка полиуретановой антигравийной пленкой, деликатная химчистка интерьера.">
+
+  <!-- Google Fonts: Inter & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       HEADER / NAVIGATION
+       ======================================================================== -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <div class="logo-badge">A</div>
+        <span>APEX <span class="text-gold-gradient">DETAILING</span></span>
+      </a>
+
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="#about" class="nav-link">О студии</a></li>
+          <li><a href="#services" class="nav-link">Услуги и цены</a></li>
+          <li><a href="#quiz" class="nav-link">Подбор и расчет</a></li>
+          <li><a href="#portfolio" class="nav-link">До / После</a></li>
+          <li><a href="#reviews" class="nav-link">Отзывы</a></li>
+          <li><a href="#contacts" class="nav-link">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-contacts">
+        <a href="https://t.me/bloxastyy" target="_blank" class="social-btn tg" style="padding: 10px 20px;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="m20.665 3.717-17.73 6.837c-1.21.486-1.203 1.161-.222 1.462l4.552 1.42 10.532-6.645c.498-.303.953-.14.579.192l-8.533 7.701h-.002l-.002.001-.314 4.692c.46 0 .663-.211.921-.46l2.211-2.15 4.599 3.397c.848.467 1.457.227 1.668-.785l3.019-14.228c.309-1.239-.473-1.8-1.282-1.442z"/></svg>
+          Telegram @bloxastyy
+        </a>
+        <button class="btn btn-primary btn-sm" data-open-modal="bookingModal">Записаться</button>
+      </div>
+
+      <button class="burger-btn" aria-label="Открыть меню">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ======================================================================
+         1. HERO SECTION
+         ====================================================================== -->
+    <section class="hero" id="hero">
+      <div class="hero-bg">
+        <img src="assets/images/hero.jpg" alt="Apex Detailing Luxury Car">
+      </div>
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-content">
+        <div class="section-tag">Премиум уход &bull; Защита кузова &bull; Официальная гарантия</div>
+        <h1 class="hero-title">
+          Идеальный глянец <br>
+          и <span class="text-gold-gradient">безупречная защита</span> вашего автомобиля
+        </h1>
+        <p class="hero-subtitle">
+          Восстановительная полировка, бронирование кузова полиуретаном Stek/Llumar, нанокерамика 9H и деликатная химчистка в беспылевых боксах с правильным студийным светом.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#quiz" class="btn btn-primary">
+            <span>Подобрать услугу и расчет</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <button class="btn btn-secondary" data-open-modal="bookingModal">
+            Быстрая запись
+          </button>
+        </div>
+
+        <div class="hero-badges">
+          <div class="badge-item">
+            <span class="badge-num">2 500+</span>
+            <span class="badge-label">защищенных автомобилей премиум и бизнес-класса</span>
+          </div>
+          <div class="badge-item">
+            <span class="badge-num">до 5 лет</span>
+            <span class="badge-label">официальная письменная гарантия на материалы</span>
+          </div>
+          <div class="badge-item">
+            <span class="badge-num">5.0 ★</span>
+            <span class="badge-label">рейтинг студии на Яндекс.Картах и 2ГИС</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         2. SERVICES SECTION
+         ====================================================================== -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="text-center">
+          <div class="section-tag">Каталог услуг</div>
+          <h2 class="section-title">Профессиональные решения для вашего авто</h2>
+          <p class="section-desc">
+            Используем только оригинальные составы Koch Chemie, Gyeon, CarPro и полиуретановые пленки ведущих мировых производителей.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- 1. Полировка -->
+          <div class="service-card">
+            <div class="service-img-wrapper">
+              <img src="assets/images/polishing.jpg" alt="Полировка кузова">
+              <div class="service-price-tag">от 75 000 ₸</div>
+            </div>
+            <div class="service-body">
+              <h3 class="service-title">Полировка кузова</h3>
+              <p class="service-desc">
+                Мягкая, восстановительная или антиголограммная полировка. Удаление до 95% царапин, паутинки и возвращение зеркального блеска лаку.
+              </p>
+              <ul class="service-features">
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> 3-этапная очистка глиной и автоскрабом</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Деликатная работа без спиливания заводского лака</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Срок выполнения: от 1 рабочего дня</li>
+              </ul>
+              <button class="btn btn-outline-gold btn-block" data-open-modal="bookingModal" data-service="Полировка кузова">
+                Записаться на полировку
+              </button>
+            </div>
+          </div>
+
+          <!-- 2. Керамика -->
+          <div class="service-card">
+            <div class="service-img-wrapper">
+              <img src="assets/images/ceramic.jpg" alt="Керамическое покрытие">
+              <div class="service-price-tag">от 140 000 ₸</div>
+            </div>
+            <div class="service-body">
+              <h3 class="service-title">Керамика и жидкое стекло</h3>
+              <p class="service-desc">
+                Нанесение кварцевых и 9H керамических покрытий Gyeon & CarPro. Глубокий карамельный блеск, мощный гидрофоб и защита от реагентов.
+              </p>
+              <ul class="service-features">
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Стойкость покрытия от 12 до 36 месяцев</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Эффект самоочищения и защита от ультрафиолета</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Антидождь на переднюю полусферу в подарок</li>
+              </ul>
+              <button class="btn btn-outline-gold btn-block" data-open-modal="bookingModal" data-service="Керамика 9H">
+                Записаться на керамику
+              </button>
+            </div>
+          </div>
+
+          <!-- 3. Бронепленка -->
+          <div class="service-card">
+            <div class="service-img-wrapper">
+              <img src="assets/images/ppf.jpg" alt="Оклейка антигравийной пленкой">
+              <div class="service-price-tag">от 320 000 ₸</div>
+            </div>
+            <div class="service-body">
+              <h3 class="service-title">Оклейка плёнкой (PPF)</h3>
+              <p class="service-desc">
+                Бронирование кузова полиуретаном толщиной 200 микрон с функцией самозатягивания царапин при нагреве. Защита от сколов, гравия и притертостей.
+              </p>
+              <ul class="service-features">
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Пленки премиум-класса Stek DynoShield / Llumar</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Зоны риска или кузов целиком</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Гарантия на отсутствие отклеивания и пожелтения 5 лет</li>
+              </ul>
+              <button class="btn btn-outline-gold btn-block" data-open-modal="bookingModal" data-service="Оклейка пленкой">
+                Записаться на оклейку
+              </button>
+            </div>
+          </div>
+
+          <!-- 4. Химчистка -->
+          <div class="service-card">
+            <div class="service-img-wrapper">
+              <img src="assets/images/dryclean.jpg" alt="Химчистка салона">
+              <div class="service-price-tag">от 65 000 ₸</div>
+            </div>
+            <div class="service-body">
+              <h3 class="service-title">Химчистка салона</h3>
+              <p class="service-desc">
+                Глубокая бережная химчистка всех поверхностей с безопасным демонтажем сидений, озонацией воздуха и консервацией кожаных элементов кремом LeTech.
+              </p>
+              <ul class="service-features">
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Торнадор, экстракторы Sabrina и гипоаллергенная химия</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Полная сушка авто тепловыми пушками (без сырости)</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Удаление неприятных запахов озоногенератором</li>
+              </ul>
+              <button class="btn btn-outline-gold btn-block" data-open-modal="bookingModal" data-service="Химчистка салона">
+                Записаться на химчистку
+              </button>
+            </div>
+          </div>
+
+          <!-- 5. Тонировка -->
+          <div class="service-card">
+            <div class="service-img-wrapper">
+              <img src="assets/images/tinting.jpg" alt="Тонировка стекол">
+              <div class="service-price-tag">от 35 000 ₸</div>
+            </div>
+            <div class="service-body">
+              <h3 class="service-title">Тонировка и атермальная плёнка</h3>
+              <p class="service-desc">
+                Классическая евротонировка задней полусферы, полосы на лобовое стекло, а также прозрачная атермальная пленка по ГОСТу для защиты от жары.
+              </p>
+              <ul class="service-features">
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Отражение до 99% ультрафиолета и 80% инфракрасного тепла</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Американские пленки Llumar ATR / SunTek</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Установка без заломов и пылинок под пленкой</li>
+              </ul>
+              <button class="btn btn-outline-gold btn-block" data-open-modal="bookingModal" data-service="Тонировка авто">
+                Записаться на тонировку
+              </button>
+            </div>
+          </div>
+
+          <!-- 6. Детейлинг мойка -->
+          <div class="service-card">
+            <div class="service-img-wrapper">
+              <img src="assets/images/wash.jpg" alt="Детейлинг мойка">
+              <div class="service-price-tag">от 15 000 ₸</div>
+            </div>
+            <div class="service-body">
+              <h3 class="service-title">Детейлинг-мойка кузова</h3>
+              <p class="service-desc">
+                Правильная 3-фазная бесконтактная и ручная мойка крупнопористыми губками с нейтральными шампунями и консервацией блеска.
+              </p>
+              <ul class="service-features">
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Очистка колесных дисков и насадок выхлопа от нагара</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Продувка кузова турбосушкой без царапающих тряпок</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Чернение резины составом на силиконовой основе</li>
+              </ul>
+              <button class="btn btn-outline-gold btn-block" data-open-modal="bookingModal" data-service="Детейлинг мойка">
+                Записаться на мойку
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         3. QUIZ & COST ESTIMATOR (SECTION 3 OF SPEC)
+         ====================================================================== -->
+    <section class="section quiz-section" id="quiz">
+      <div class="container">
+        <div class="text-center">
+          <div class="section-tag">Интерактивный конфигуратор</div>
+          <h2 class="section-title">Подберите услугу и получите предложение</h2>
+          <p class="section-desc">
+            Ответьте на 4 простых вопроса о вашем автомобиле. Администратор студии подберет оптимальный комплекс и рассчитает индивидуальную смету.
+          </p>
+        </div>
+
+        <div class="quiz-container">
+          <!-- Stepper Progress Bar -->
+          <div class="quiz-progress-bar">
+            <div class="quiz-progress-line">
+              <div class="quiz-progress-fill" id="quizProgressFill"></div>
+            </div>
+            <div class="quiz-step-indicator active" id="stepIndicator1">1</div>
+            <div class="quiz-step-indicator" id="stepIndicator2">2</div>
+            <div class="quiz-step-indicator" id="stepIndicator3">3</div>
+            <div class="quiz-step-indicator" id="stepIndicator4">4</div>
+            <div class="quiz-step-indicator" id="stepIndicator5">5</div>
+          </div>
+
+          <form id="detailingQuizForm">
+            <!-- STEP 1: SERVICE -->
+            <div class="quiz-step active" id="quizStep1">
+              <h3 class="quiz-question-title">Шаг 1: Какая услуга вас интересует?</h3>
+              <p class="quiz-question-subtitle">Выберите главное направление для ухода или защиты:</p>
+              
+              <div class="quiz-options-grid">
+                <div class="quiz-option-card quiz-service-card selected" data-service="ceramic" data-name="Керамика 9H">
+                  <div class="quiz-option-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                  </div>
+                  <div class="quiz-option-title">Керамика 9H</div>
+                  <div class="quiz-option-desc">Глубокий глянец, гидрофоб и защита от химии</div>
+                </div>
+
+                <div class="quiz-option-card quiz-service-card" data-service="ppf" data-name="Бронепленка (PPF)">
+                  <div class="quiz-option-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+                  </div>
+                  <div class="quiz-option-title">Оклейка пленкой</div>
+                  <div class="quiz-option-desc">Полиуретановая броня против сколов и гравия</div>
+                </div>
+
+                <div class="quiz-option-card quiz-service-card" data-service="polishing" data-name="Полировка кузова">
+                  <div class="quiz-option-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m4.93 4.93 4.24 4.24M14.83 14.83l4.24 4.24M14.83 9.17l4.24-4.24M4.93 19.07l4.24-4.24"/></svg>
+                  </div>
+                  <div class="quiz-option-title">Полировка кузова</div>
+                  <div class="quiz-option-desc">Удаление царапин и паутинки до зеркала</div>
+                </div>
+
+                <div class="quiz-option-card quiz-service-card" data-service="dryclean" data-name="Химчистка салона">
+                  <div class="quiz-option-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z"/></svg>
+                  </div>
+                  <div class="quiz-option-title">Химчистка салона</div>
+                  <div class="quiz-option-desc">Премиум уход за кожей, велюром и текстилем</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- STEP 2: CAR BRAND & MODEL -->
+            <div class="quiz-step" id="quizStep2">
+              <h3 class="quiz-question-title">Шаг 2: Укажите марку и модель автомобиля</h3>
+              <p class="quiz-question-subtitle">Выберите быструю марку или напишите вручную:</p>
+
+              <div class="brand-chips">
+                <div class="chip brand-chip" data-brand="BMW">BMW</div>
+                <div class="chip brand-chip" data-brand="Mercedes-Benz">Mercedes-Benz</div>
+                <div class="chip brand-chip" data-brand="Porsche">Porsche</div>
+                <div class="chip brand-chip" data-brand="Audi">Audi</div>
+                <div class="chip brand-chip" data-brand="Lixiang (Li Auto)">Li Auto (Lixiang)</div>
+                <div class="chip brand-chip" data-brand="Zeekr">Zeekr</div>
+                <div class="chip brand-chip" data-brand="Lexus">Lexus</div>
+                <div class="chip brand-chip" data-brand="Range Rover">Range Rover</div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="quizCarBrand">Марка автомобиля</label>
+                <input type="text" class="form-input" id="quizCarBrand" placeholder="Например: BMW" required>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="quizCarModel">Модель и год (опционально)</label>
+                <input type="text" class="form-input" id="quizCarModel" placeholder="Например: X5 G05, 2023 г.">
+              </div>
+            </div>
+
+            <!-- STEP 3: BODY TYPE -->
+            <div class="quiz-step" id="quizStep3">
+              <h3 class="quiz-question-title">Шаг 3: Выберите тип кузова</h3>
+              <p class="quiz-question-subtitle">Это необходимо для предварительной оценки площади покрытия:</p>
+
+              <div class="quiz-options-grid">
+                <div class="quiz-option-card quiz-body-card selected" data-body="Седан / Лифтбек">
+                  <div class="quiz-option-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10l-2-4H7L4 10s-2 .6-2.5 1.1C1 11.6 1 12.1 1 13v3c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></svg>
+                  </div>
+                  <div class="quiz-option-title">Седан / Лифтбек</div>
+                  <div class="quiz-option-desc">BMW 5/3, Mercedes E/C, Audi A6</div>
+                </div>
+
+                <div class="quiz-option-card quiz-body-card" data-body="Кроссовер (SUV)">
+                  <div class="quiz-option-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M19 17h2c.6 0 1-.4 1-1v-4c0-.9-.7-1.7-1.5-1.9C18.7 9.6 16 9 16 9l-2-5H6L3 9s-1.5.6-2 1.1C.5 10.6.5 11.1.5 12v4c0 .6.4 1 1 1h2.5"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></svg>
+                  </div>
+                  <div class="quiz-option-title">Кроссовер (SUV)</div>
+                  <div class="quiz-option-desc">BMW X5/X6, Porsche Cayenne, Li L7/L9</div>
+                </div>
+
+                <div class="quiz-option-card quiz-body-card" data-body="Внедорожник / Пикап">
+                  <div class="quiz-option-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="5" width="20" height="12" rx="2"/><circle cx="6" cy="17" r="2"/><circle cx="18" cy="17" r="2"/><path d="M8 17h8"/></svg>
+                  </div>
+                  <div class="quiz-option-title">Внедорожник / Рама</div>
+                  <div class="quiz-option-desc">Mercedes G-Class, Land Cruiser 300, RAM</div>
+                </div>
+
+                <div class="quiz-option-card quiz-body-card" data-body="Купе / Спорткар">
+                  <div class="quiz-option-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 13 6 7h12l3 6M4 17h16"/><circle cx="7.5" cy="17.5" r="2.5"/><circle cx="16.5" cy="17.5" r="2.5"/></svg>
+                  </div>
+                  <div class="quiz-option-title">Купе / Спорткар</div>
+                  <div class="quiz-option-desc">Porsche 911, BMW 8/M4, Audi R8</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- STEP 4: DYNAMIC SERVICE DETAILS -->
+            <div class="quiz-step" id="quizStep4">
+              <h3 class="quiz-question-title" id="dynamicStepTitle">Шаг 4: Детали услуги</h3>
+              <p class="quiz-question-subtitle" id="dynamicStepSubtitle">Уточните нюансы для максимально точного подбора:</p>
+              
+              <div id="dynamicQuestionsContainer">
+                <!-- Injected via quiz.js -->
+              </div>
+            </div>
+
+            <!-- STEP 5: CONTACT & DISPATCH -->
+            <div class="quiz-step" id="quizStep5">
+              <h3 class="quiz-question-title">Шаг 5: Куда отправить предложение?</h3>
+              <p class="quiz-question-subtitle">Мастер изучит параметры вашего автомобиля и свяжется для точного расчета сметы и резерва бокса:</p>
+
+              <div class="form-group">
+                <label class="form-label" for="quizName">Ваше имя</label>
+                <input type="text" class="form-input" id="quizName" placeholder="Иван" required>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="quizPhone">Номер телефона</label>
+                <input type="tel" class="form-input" id="quizPhone" placeholder="+7 (___) ___-__-__" required>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Предпочтительный способ связи:</label>
+                <div style="display: flex; gap: 20px; margin-top: 10px;">
+                  <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                    <input type="radio" name="quizContactMethod" value="Telegram (@bloxastyy)" checked> Telegram (@bloxastyy)
+                  </label>
+                  <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                    <input type="radio" name="quizContactMethod" value="Звонок"> Звонок администратора
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Nav Controls -->
+            <div class="quiz-nav-btns">
+              <button type="button" class="btn btn-secondary" id="quizPrevBtn" style="visibility: hidden;">
+                Назад
+              </button>
+              <button type="button" class="btn btn-primary" id="quizNextBtn">
+                Далее
+              </button>
+              <button type="submit" class="btn btn-primary" id="quizSubmitBtn" style="display: none;">
+                Отправить заявку мастеру
+              </button>
+            </div>
+
+            <p class="quiz-note">
+              🔒 Мы не передаем ваши данные третьим лицам. Расчет и консультация детейлера бесплатны.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         5. BEFORE / AFTER COMPARISON SECTION
+         ====================================================================== -->
+    <section class="section" id="portfolio">
+      <div class="container">
+        <div class="text-center">
+          <div class="section-tag">Наши работы</div>
+          <h2 class="section-title">Результат, который говорит сам за себя</h2>
+          <p class="section-desc">
+            Подвигайте ползунок на фото, чтобы увидеть преображение кузова после 3-этапной восстановительной полировки и 2-х слоев керамики 9H.
+          </p>
+        </div>
+
+        <!-- Interactive Slider -->
+        <div class="before-after-wrapper">
+          <!-- BEFORE IMAGE -->
+          <div class="ba-image ba-before" style="background-image: url('assets/images/hero.jpg');">
+            <span class="ba-label ba-label-before">До детейлинга (голограммы, матовость)</span>
+          </div>
+
+          <!-- AFTER IMAGE (with clip width) -->
+          <div class="ba-image ba-after" style="background-image: url('assets/images/hero.jpg');">
+            <span class="ba-label ba-label-after">После (Зеркальный глянец 9H)</span>
+          </div>
+
+          <!-- Slider Handle & Input -->
+          <div class="ba-slider-handle">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m9 18-6-6 6-6M15 6l6 6-6 6"/></svg>
+          </div>
+          <input type="range" min="0" max="100" value="50" class="ba-range-input" aria-label="Сравнить До и После">
+        </div>
+
+        <!-- Portfolio Gallery with category filters -->
+        <div class="portfolio-tags">
+          <button class="filter-btn active" data-filter="all">Все проекты</button>
+          <button class="filter-btn" data-filter="ceramic">Керамика</button>
+          <button class="filter-btn" data-filter="ppf">Бронепленка</button>
+          <button class="filter-btn" data-filter="polishing">Полировка</button>
+          <button class="filter-btn" data-filter="dryclean">Химчистка</button>
+        </div>
+
+        <div class="gallery-grid">
+          <!-- Item 1 -->
+          <div class="gallery-card" data-category="ceramic">
+            <img src="assets/images/portfolio1.jpg" alt="Porsche 911 GT3">
+            <div class="gallery-overlay">
+              <span class="gallery-car">Porsche 911 GT3</span>
+              <span class="gallery-service">Керамика 9H + Зоны риска PPF</span>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="gallery-card" data-category="ppf">
+            <img src="assets/images/portfolio2.jpg" alt="Chevrolet Corvette">
+            <div class="gallery-overlay">
+              <span class="gallery-car">Chevrolet Corvette Stingray</span>
+              <span class="gallery-service">Полная оклейка в матовый сатин Stek</span>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="gallery-card" data-category="polishing">
+            <img src="assets/images/portfolio3.jpg" alt="Mercedes AMG GT">
+            <div class="gallery-overlay">
+              <span class="gallery-car">Mercedes-AMG GT Coupe</span>
+              <span class="gallery-service">Глубокая восстановительная полировка</span>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="gallery-card" data-category="dryclean">
+            <img src="assets/images/portfolio4.jpg" alt="Салон BMW M8">
+            <div class="gallery-overlay">
+              <span class="gallery-car">BMW M8 Competition</span>
+              <span class="gallery-service">Детейлинг кожи Nappa и карбона</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         7. ABOUT & ADVANTAGES SECTION
+         ====================================================================== -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-content">
+            <div class="section-tag">О нашей студии</div>
+            <h2 class="section-title">Стандарты детейлинга высшего класса</h2>
+            <p style="color: var(--text-muted); margin-bottom: 20px;">
+              Мы основали APEX Detailing Studio с одной целью — предоставить владельцам автомобилей сервис и качество бескомпромиссного уровня.
+            </p>
+            <p style="color: var(--text-muted); margin-bottom: 28px;">
+              Каждый бокс нашей студии изолирован от внешней пыли, оснащен профессиональным светом с цветовой температурой 5500K и коэффициентом цветопередачи CRI 98+, что позволяет видеть мельчайшие голограммы и риски, недоступные при обычном освещении.
+            </p>
+
+            <div class="advantages-grid" style="grid-template-columns: 1fr 1fr; margin-bottom: 24px;">
+              <div class="adv-card" style="padding: 18px;">
+                <h4 style="color: #fff; margin-bottom: 6px;">Сертификаты брендов</h4>
+                <p style="font-size: 0.8rem; color: var(--text-dim);">Мастера прошли аттестацию в европейских академиях Gyeon и Stek</p>
+              </div>
+              <div class="adv-card" style="padding: 18px;">
+                <h4 style="color: #fff; margin-bottom: 6px;">Охраняемый паркинг</h4>
+                <p style="font-size: 0.8rem; color: var(--text-dim);">Закрытая территория, круглосуточное видеонаблюдение 4K</p>
+              </div>
+            </div>
+
+            <div class="about-brands">
+              <span class="brand-logo-text">GYEON</span>
+              <span class="brand-logo-text">STEK</span>
+              <span class="brand-logo-text">RUPES</span>
+              <span class="brand-logo-text">LLUMAR</span>
+              <span class="brand-logo-text">KOCH CHEMIE</span>
+            </div>
+          </div>
+
+          <div class="about-img-box">
+            <img src="assets/images/about.jpg" alt="Бокс Apex Detailing Studio">
+            <div class="about-experience-badge">
+              <div style="font-size: 2.2rem; font-weight: 900; color: var(--accent-gold); font-family: var(--font-heading);">8+</div>
+              <div style="font-size: 0.82rem; color: #fff; font-weight: 600; text-transform: uppercase;">Лет безупречного опыта</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         6. REVIEWS SECTION
+         ====================================================================== -->
+    <section class="section" id="reviews">
+      <div class="container">
+        <div class="text-center">
+          <div class="section-tag">Мнения клиентов</div>
+          <h2 class="section-title">Что говорят автовладельцы</h2>
+          <p class="section-desc">
+            Честные отзывы реальных владельцев с независимых площадок Яндекс Карты и 2ГИС.
+          </p>
+        </div>
+
+        <div class="reviews-grid">
+          <!-- Review 1 -->
+          <div class="review-card">
+            <div>
+              <div class="review-header">
+                <img src="assets/images/avatar1.jpg" alt="Михаил" class="review-avatar">
+                <div>
+                  <div class="review-author">Михаил Романов</div>
+                  <div class="review-car">Porsche Panamera GTS</div>
+                </div>
+              </div>
+              <div class="stars">★★★★★</div>
+              <p class="review-text">
+                «Отдавал Панамеру на полную оклейку в полиуретан Stek и керамику поверх пленки. Результат превзошел все ожидания — все подвороты выполнены ювелирно, краев пленки вообще не видно. Машина сияет ярче, чем из салона Porsche. Ребятам огромное уважение!»
+              </p>
+            </div>
+            <div class="review-footer">
+              <span>Услуга: Оклейка в полиуретан целиком</span>
+              <span class="review-source-badge">Яндекс.Карты</span>
+            </div>
+          </div>
+
+          <!-- Review 2 -->
+          <div class="review-card">
+            <div>
+              <div class="review-header">
+                <img src="assets/images/avatar2.jpg" alt="Артем" class="review-avatar">
+                <div>
+                  <div class="review-author">Артем Васильев</div>
+                  <div class="review-car">BMW X5 (G05)</div>
+                </div>
+              </div>
+              <div class="stars">★★★★★</div>
+              <p class="review-text">
+                «Делал комплекс: полировку кузова и глубокую химчистку салона с кожей Cognac. Предыдущий владелец не сильно следил, но мастера APEX сотворили чудо — кожа стала матовой, чистой, ушел глянец и засаленность. Кузов без единой паутинки.»
+              </p>
+            </div>
+            <div class="review-footer">
+              <span>Услуга: Восстановительная полировка + Химчистка</span>
+              <span class="review-source-badge">2ГИС</span>
+            </div>
+          </div>
+
+          <!-- Review 3 -->
+          <div class="review-card">
+            <div>
+              <div class="review-header">
+                <img src="assets/images/avatar3.jpg" alt="Сергей" class="review-avatar">
+                <div>
+                  <div class="review-author">Сергей Белов</div>
+                  <div class="review-car">Li Auto L9</div>
+                </div>
+              </div>
+              <div class="stars">★★★★★</div>
+              <p class="review-text">
+                «Пригнал китайца сразу после выдачи. Забронировали переднюю полусферу, пороги и экраны в салоне, плюс нанесли 2 слоя керамики Gyeon. Очень приятный подход: всё по таймингу, фотоотчеты в Telegram на каждом этапе. Рекомендую однозначно.»
+              </p>
+            </div>
+            <div class="review-footer">
+              <span>Услуга: Защита зон риска + Керамика</span>
+              <span class="review-source-badge">Google Reviews</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         8. CONTACTS SECTION
+         ====================================================================== -->
+    <section class="section" id="contacts">
+      <div class="container">
+        <div class="text-center">
+          <div class="section-tag">Локация и связь</div>
+          <h2 class="section-title">Приезжайте в гости или напишите нам</h2>
+          <p class="section-desc">
+            Всегда рады напоить вкусным кофе, провести осмотр лакокрасочного покрытия под студийным светом и составить точный план работ.
+          </p>
+        </div>
+
+        <div class="contacts-grid">
+          <div class="contacts-info-card">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <div class="contact-label">Адрес студии</div>
+                <div class="contact-value">г. Москва, Бережковская набережная, д. 20, стр. 6</div>
+                <div style="font-size: 0.8rem; color: var(--text-dim); margin-top: 4px;">Удобный заезд с ТТК, бесплатная парковка для клиентов</div>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div>
+                <div class="contact-label">Режим работы</div>
+                <div class="contact-value">Ежедневно с 09:00 до 21:00</div>
+                <div style="font-size: 0.8rem; color: var(--text-dim); margin-top: 4px;">Прием автомобилей по записи через Telegram</div>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              </div>
+              <div>
+                <div class="contact-label">Прямой Telegram для связи</div>
+                <div class="social-links">
+                  <a href="https://t.me/bloxastyy" target="_blank" class="social-btn tg">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="m20.665 3.717-17.73 6.837c-1.21.486-1.203 1.161-.222 1.462l4.552 1.42 10.532-6.645c.498-.303.953-.14.579.192l-8.533 7.701h-.002l-.002.001-.314 4.692c.46 0 .663-.211.921-.46l2.211-2.15 4.599 3.397c.848.467 1.457.227 1.668-.785l3.019-14.228c.309-1.239-.473-1.8-1.282-1.442z"/></svg>
+                    Написать в Telegram @bloxastyy
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Yandex Maps Embed / Visual Map Box -->
+          <div class="map-card">
+            <iframe 
+              src="https://yandex.ru/map-widget/v1/?um=constructor%3A7a1498b8c59f0f9b6e927cb45df7e04f9dfc24b6f72c0576e279b9409848bcbf&amp;source=constructor" 
+              title="Карта проезда к студии детейлинга"
+              loading="lazy">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       FOOTER
+       ======================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <a href="#" class="logo">
+          <div class="logo-badge">A</div>
+          <span>APEX <span class="text-gold-gradient">DETAILING</span></span>
+        </a>
+
+        <div style="display: flex; gap: 24px; flex-wrap: wrap;">
+          <a href="#services" style="color: var(--text-muted); font-size: 0.9rem;">Услуги</a>
+          <a href="#quiz" style="color: var(--text-muted); font-size: 0.9rem;">Расчет стоимости</a>
+          <a href="#portfolio" style="color: var(--text-muted); font-size: 0.9rem;">Наши работы</a>
+          <a href="#about" style="color: var(--text-muted); font-size: 0.9rem;">О студии</a>
+          <a href="#contacts" style="color: var(--text-muted); font-size: 0.9rem;">Контакты</a>
+        </div>
+
+        <button class="btn btn-outline-gold btn-sm" data-open-modal="bookingModal">Записаться</button>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 APEX Detailing Studio. Все права защищены.</div>
+        <div style="font-size: 0.75rem; color: var(--text-dim);">
+          Не является публичной офертой. <i>(Подсказка для владельца: двойной клик на логотип открывает список заявок)</i>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       4. BOOKING MODAL FORM (SECTION 4 OF SPEC)
+       ======================================================================== -->
+  <div class="modal-backdrop" id="bookingModal">
+    <div class="modal-window">
+      <button class="modal-close" id="closeBookingModal" aria-label="Закрыть окно">&times;</button>
+      
+      <div class="section-tag" style="margin-bottom: 8px;">Онлайн-запись</div>
+      <h3 style="font-size: 1.6rem; color: #fff; margin-bottom: 8px; font-family: var(--font-heading);">
+        Забронировать бокс
+      </h3>
+      <p style="color: var(--text-muted); font-size: 0.88rem; margin-bottom: 24px;">
+        Оставьте свои контакты, мастер свяжется с вами для согласования удобного времени заезда.
+      </p>
+
+      <form id="bookingDirectForm">
+        <div class="form-group">
+          <label class="form-label" for="bookingName">Ваше имя *</label>
+          <input type="text" class="form-input" id="bookingName" placeholder="Александр" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="bookingPhone">Номер телефона *</label>
+          <input type="tel" class="form-input" id="bookingPhone" placeholder="+7 (___) ___-__-__" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="bookingCar">Марка и модель автомобиля *</label>
+          <input type="text" class="form-input" id="bookingCar" placeholder="Например: Porsche Macan" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="bookingService">Интересующая услуга</label>
+          <select class="form-select" id="bookingService">
+            <option value="Полировка кузова">Полировка кузова</option>
+            <option value="Керамика 9H">Керамика 9H и жидкое стекло</option>
+            <option value="Оклейка пленкой">Оклейка антигравийной пленкой (PPF)</option>
+            <option value="Химчистка салона">Химчистка салона с озонацией</option>
+            <option value="Тонировка авто">Тонировка и атермальная защита</option>
+            <option value="Детейлинг мойка">Детейлинг-мойка кузова</option>
+            <option value="Комплексный уход">Комплексный детейлинг «под ключ»</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="bookingDate">Желаемая дата и время</label>
+          <input type="text" class="form-input" id="bookingDate" placeholder="Например: В эту субботу к 11:00">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="bookingComment">Комментарий или пожелания (по желанию)</label>
+          <textarea class="form-textarea" id="bookingComment" rows="2" placeholder="Особые пожелания или вопросы к мастеру..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">
+          Подтвердить запись
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/quiz.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
